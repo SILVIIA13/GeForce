@@ -1,0 +1,194 @@
+/*обнуления стилей*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+/*	font-family: Arial, sans-serif;*/
+	font-family: 'Comfortaa', cursive;
+	line-height: 130%;
+	font-weight: 300;
+}
+
+
+
+/*отступы*/
+
+.container {
+	margin: 60px auto;
+	max-width: 1100px;
+	padding: 5px 35px;
+}
+
+h1 {
+	margin: 70px 0;
+}
+
+h2 {
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+
+ul {
+	padding-left: 30px;
+}
+
+.info {
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+
+
+/*текст -своиства*/
+h1	{
+	font-size: 55px;
+	font-weight: 700;
+	text-align: center;
+	color: black;
+	line-height: 120%;
+}
+
+h2	{
+	font-size: 30px;
+	font-weight: 700;
+	color: black;
+	line-height: 120%;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+b {
+	font-weight: 700;
+}
+
+i {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/*фото-видео*/
+.image {
+	margin-left: 30px;
+	margin-bottom: 15px;
+	width: 45%;
+	min-width: 280px;
+	float: right;
+}
+
+.block {
+	width: 100%;
+/*	background: red;*/
+}
+
+
+.spisok {
+	border-radius: 10px;
+	border: 5px black dotted;
+	padding: 40px;
+	margin-bottom: 80px;
+}
+
+.video {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+
+.video-container {
+	width: 80%;
+  	margin: 0 auto;
+}
+
+/*шапка*/
+header {
+	height: 130px;
+	background: /*#a598ea*/#7c5c96;
+}
+
+.header {
+ height: 30px;
+ max-width: 1100px;
+ padding: 50px 35px;
+ margin: 0 auto;
+}
+
+.menu {
+	margin-right: 30px;
+	font-size: 22px;
+	font-weight: 700;
+	color: white;
+	border: 3px white solid;
+	padding: 10px 20px;
+	border-radius: 50px;
+
+}
+
+.menu:hover {
+	color: black;
+}
+
+
+/*подвал*/
+
+footer {
+	height: 230px;
+	background: #7c5c96;
+
+}
+
+.footer {
+	height: 30px;
+ 	max-width: 1100px;
+ 	padding: 100px 35px;
+ 	margin: 0 auto;
+}
+
+.author {
+	color: white;
+	text-align: right;
+	margin:	0;
+}
+
+
+/*оглав*/
+
+.contents {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 700;
+	color:#623e80;
+} 
+
+.contents:hover {
+	color: black;
+}
+
+.contents-border {
+	border-top: 5px dotted black;
+	border-bottom: 5px dotted black;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+
+/*фон*/
+body {
+	background-image: url(../images/ff.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	/*background: #675d96;*/
+}
+
+/*.container {
+	background: white;
+	border-radius: 20px;
+}
+*/
